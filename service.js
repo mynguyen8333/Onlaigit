@@ -10,6 +10,10 @@ app.get('/',(req,res)=>{
     return res.render('index');
 });
 
+app.get('/trangchu',(req,res)=>{
+    return res.render('giaodiensinhvien');
+});
+
 app.listen(3000,()=>{
     console.log('Server is running on port 3000!');
 });
